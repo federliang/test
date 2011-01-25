@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>1 What&apos;s your name?</string>
+	<string>2 我的名字叫Feder,我来自中国大连，很高兴认识你</string>
+	<string>3 Where are you from?</string>
+	<string>4 China</string>
+	<string>5 What&apos;s your family name?</string>
+	<string>liang</string>
+	<string>你对喜欢什么诗？</string>
+	<string>床前明月光，地上鞋两双，举头望明月，低头思故乡</string>
+	<string>你最喜欢什么运动？</string>
+	<string>自行车，篮球，足球</string>
+</array>
+</plist>
