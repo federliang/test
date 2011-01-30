@@ -11,17 +11,30 @@
 
 @implementation EditableCell
 
-@synthesize textField, hint, secure, bgImage, celllabel, key, section, row;
+@synthesize numberField, smsField, timeField, hint, secure, bgImage, celllabel, key, section, row;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
 		// Adding the text field
-		textField = [self newTextFieldWithPrimaryColor:[UIColor cyanColor] selectedColor:[UIColor cyanColor] fontSize:15.0 bold:NO];
-		textField.clearsOnBeginEditing = NO;
-		textField.returnKeyType = UIReturnKeyDone;
-		textField.delegate = self;
-		[self.contentView addSubview:textField];
-	
+		numberField = [self newTextFieldWithPrimaryColor:[UIColor greenColor] selectedColor:[UIColor cyanColor] fontSize:15.0 bold:NO];
+		numberField.clearsOnBeginEditing = NO;
+		numberField.returnKeyType = UIReturnKeyDone;
+		numberField.delegate = self;
+		[self.contentView addSubview:numberField];
+
+		smsField = [self newTextFieldWithPrimaryColor:[UIColor greenColor] selectedColor:[UIColor cyanColor] fontSize:15.0 bold:NO];
+		smsField.clearsOnBeginEditing = NO;
+		smsField.returnKeyType = UIReturnKeyDone;
+		smsField.delegate = self;
+		[self.contentView addSubview:smsField];
+
+		timeField = [self newTextFieldWithPrimaryColor:[UIColor greenColor] selectedColor:[UIColor cyanColor] fontSize:15.0 bold:NO];
+		timeField.clearsOnBeginEditing = NO;
+		timeField.returnKeyType = UIReturnKeyDone;
+		timeField.delegate = self;
+		[self.contentView addSubview:timeField];
+		
+		
 		UIImageView *bgImage2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cell11.png"]];
 		self.backgroundView = bgImage2;
 		[bgImage2 release];
@@ -35,18 +48,18 @@
 - (void)setContent:(NSMutableDictionary*)data{
 	self.key = (NSString*)[data valueForKey:@"key"];
 	self.celllabel.text = (NSString*)[data valueForKey:@"label"];
-	self.textField.text = (NSString*)[data valueForKey:@"value"];
+	self.numberField.text = (NSString*)[data valueForKey:@"value"];
 	NSNumber *test = (NSNumber*)[data valueForKey:@"editable"];
 	BOOL test1 = [test boolValue];
 	if(!test1){
-		self.textField.enabled = FALSE;
+		self.numberField.enabled = FALSE;
 	}
 
 }
 - (UITextField *)newTextFieldWithPrimaryColor:(UIColor *)primaryColor selectedColor:(UIColor *)selectedColor fontSize:(CGFloat)fontSize bold:(BOOL)bold
 {
 	/*
-	 Create and configure a label.
+	 Create and configure a textfield.
 	 */
 	
     UIFont *font;
@@ -58,14 +71,15 @@
 	/*
 	 Views are drawn most efficiently when they are opaque and do not have a clear background, so set these defaults.  To show selection properly, however, the views need to be transparent (so that the selection color shows through).  This is handled in setSelected:animated:.
 	 */
-	UITextField *newLabel = [[UITextField alloc] initWithFrame:CGRectZero];
-	newLabel.opaque					= NO;
-	newLabel.textColor				= primaryColor;
-	newLabel.backgroundColor		= [UIColor clearColor];
-	newLabel.font					= font;
-	newLabel.textAlignment			= UITextAlignmentRight;
+	UITextField *newTextField = [[UITextField alloc] initWithFrame:CGRectZero];
+	newTextField.opaque					= NO;
+	//newTextField.textColor				= primaryColor;
+	newTextField.backgroundColor		= [UIColor blueColor];
+	newTextField.font					= font;
+	newTextField.textAlignment			= UITextAlignmentLeft;
+	//newTextField.text					= @"Number";
 	
-	return newLabel;
+	return newTextField;
 }
 - (UILabel *)newLabelWithPrimaryColor:(UIColor *)primaryColor selectedColor:(UIColor *)selectedColor fontSize:(CGFloat)fontSize bold:(BOOL)bold
 {
@@ -97,24 +111,26 @@
 }
 - (void)dealloc {
 	[celllabel release];
-	[textField release];
+	[numberField release];
+	[smsField release];
+	[timeField release];
     [super dealloc];
 }
 - (void)setHint:(NSString *)h{
-	textField.placeholder = h;
+	numberField.placeholder = h;
 	//	textField.text = @"test";
 }
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
 	
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField{
-
+- (BOOL)textFieldShouldReturn:(UITextField *)textField1{
+	[textField1 resignFirstResponder];
 	return YES;
 }
 - (void)setSecure:(BOOL)sec{
 	
-	textField.secureTextEntry = sec;
+	numberField.secureTextEntry = sec;
 	secure = sec;
 	
 }
@@ -129,11 +145,18 @@
 - (void)layoutSubviews {
 	//CGRect frame = CGRectMake(0,0,320,42);
 	//[self.bgImage setFrame:frame];
-	
-	textField.frame = CGRectMake(90.0, 
+	numberField.frame = CGRectMake(30.0, 
 								 12.0, 
 								 220.0, 
 								 35.0);
+	timeField.frame = CGRectMake(30.0, 
+								   50.0, 
+								   220.0, 
+								   35.0);
+	smsField.frame = CGRectMake(30.0, 
+								   82.0, 
+								   220.0, 
+								   35.0);
 	
 	celllabel.frame = CGRectMake(20, 12,  60, 15);
 }

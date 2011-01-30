@@ -31,7 +31,7 @@
 	//NSArray *array = [[NSArray alloc]initWithObjects:row1, row2, nil];
 	//smsTimingArray = [[NSMutableArray alloc] initWithObjects:row1, row2, nil];
 	//NSMutableArray array = [smsTimingArray objectForKey:@"title"];
-	smsTimingArray = [[NSMutableArray alloc] initWithObjects:@"Number Setting", @"SMS Setting", @"Timing", nil];
+	smsTimingArray = [[NSMutableArray alloc] initWithObjects:@"Number Setting", nil];
 	return self;
 }
 
@@ -137,8 +137,9 @@
 {
 	// Change the height if Edit Unknown Contact is the row selected
 	//NSLog(@"Set Height");
-	//return tableView.rowHeight;
-	return 88.0f;
+	//[self.numberField text] = @"KKK";
+	return tableView.rowHeight;
+	//return 88.0f;
 	
 }
 
@@ -155,45 +156,11 @@
 		//cell.backgroundColor = [UIColor colorWithRed:0.859f green:0.886f blue:0.929f alpha:1.0f];
 		//cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	}
-	NSString *chatInfo = [smsTimingArray objectAtIndex:[indexPath row]];
-	//if(row == 0)
-	{
-		//Text Field
-		//UITextField *textfield = [[[UITextField alloc] initWithFrame:CGRectMake(60.0f, 0.0f, 150.0f, 31.0f)] autorelease];
-		UITextField *textfield = [[[UITextField alloc] initWithFrame:CGRectZero] autorelease];
-		textfield.tag = TEXTFIELDTAG2;
-		textfield.delegate = self;
-		textfield.autocorrectionType = UITextAutocorrectionTypeNo;
-		textfield.autocapitalizationType = UITextAutocapitalizationTypeNone;
-		textfield.enablesReturnKeyAutomatically = YES;
-		textfield.borderStyle = UITextBorderStyleRoundedRect;
-		textfield.returnKeyType = UIReturnKeySend;
-		textfield.clearButtonMode = UITextFieldViewModeWhileEditing;
-		textfield.text = chatInfo;
-		//[cell.contentView insertSubview:textfield atIndex:1];
-		[cell.contentView addSubview:textfield];
-		//[returnView addSubview:textfield];
-		[textfield release];
-	}
-	/*else{
-		cell.textLabel.text = chatInfo;
-	}*/
-	//cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+	//cell.textLabel = [smsTimingArray objectAtIndex:[indexPath row]];
+	
+	//cell.numberField.text = @"aaa";
 	return cell;
 }
-
-#pragma mark -
-#pragma mark Laying out subviews
-
-- (void)layoutSubviews {
-	//CGRect frame = CGRectMake(0,0,320,42);
-	//[self.bgImage setFrame:frame];
-	UITextField *textfield = [[[UITextField alloc] initWithFrame:CGRectZero] autorelease];
-	textfield.tag = TEXTFIELDTAG2;
-	textfield.frame = CGRectMake(60, 0, 150, 31);
-}
-
-
 
 #pragma mark Text field methods
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {

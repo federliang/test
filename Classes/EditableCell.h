@@ -10,7 +10,10 @@
 
 
 @interface EditableCell : UITableViewCell <UITextFieldDelegate>{
-	UITextField *textField;
+	UITextField *numberField;
+	UITextField *smsField;
+	UITextField *timeField;
+	
 	UILabel *celllabel;
 	BOOL secure;
 	NSString *hint;
@@ -22,7 +25,9 @@
 
 
 
-@property (nonatomic, retain) UITextField *textField;
+@property (nonatomic, retain) UITextField *numberField;
+@property (nonatomic, retain) UITextField *smsField;
+@property (nonatomic, retain) UITextField *timeField;
 @property (nonatomic, retain) UILabel *celllabel;
 @property (nonatomic, retain) NSString *key;
 @property (assign) BOOL secure;

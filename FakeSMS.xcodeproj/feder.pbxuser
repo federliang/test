@@ -107,107 +107,43 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316158221;
-			PBXWorkspaceStateSaveDate = 316158221;
+			PBXPerProjectTemplateStateSaveDate = 318091652;
+			PBXWorkspaceStateSaveDate = 318091652;
 		};
 		perUserProjectItems = {
 			9A205580125A383500B084B8 = 9A205580125A383500B084B8 /* PBXTextBookmark */;
-			9A205581125A383500B084B8 = 9A205581125A383500B084B8 /* PBXTextBookmark */;
 			9A42B102125CCA0500D65B35 = 9A42B102125CCA0500D65B35 /* PBXTextBookmark */;
-			9A4C89F5125B65A400811963 = 9A4C89F5125B65A400811963 /* PBXTextBookmark */;
 			9A5C42BC125567CC00F55BCD = 9A5C42BC125567CC00F55BCD /* PBXBookmark */;
 			9A5C42BD125567CC00F55BCD = 9A5C42BD125567CC00F55BCD /* PBXBookmark */;
 			9A5C42BE125567CC00F55BCD = 9A5C42BE125567CC00F55BCD /* PBXBookmark */;
 			9A5C42BF125567CC00F55BCD = 9A5C42BF125567CC00F55BCD /* PlistBookmark */;
 			9A5C42C0125567CC00F55BCD = 9A5C42C0125567CC00F55BCD /* PBXBookmark */;
 			9A5C42C1125567CC00F55BCD = 9A5C42C1125567CC00F55BCD /* PBXBookmark */;
-			9A62D107118FC94D0020B492 = 9A62D107118FC94D0020B492 /* PBXTextBookmark */;
 			9A62D20811900ED10020B492 = 9A62D20811900ED10020B492 /* PBXTextBookmark */;
-			9A6D682F1249E26C00EE7B87 = 9A6D682F1249E26C00EE7B87 /* PBXTextBookmark */;
-			9A9086EC12EC100600185F47 /* PBXTextBookmark */ = 9A9086EC12EC100600185F47 /* PBXTextBookmark */;
-			9A9086ED12EC100600185F47 /* PBXTextBookmark */ = 9A9086ED12EC100600185F47 /* PBXTextBookmark */;
-			9A9086F212EC4B7A00185F47 /* PBXTextBookmark */ = 9A9086F212EC4B7A00185F47 /* PBXTextBookmark */;
-			9A9086F312EC4B7A00185F47 /* PBXTextBookmark */ = 9A9086F312EC4B7A00185F47 /* PBXTextBookmark */;
-			9A9086F412EC4B7A00185F47 /* PBXTextBookmark */ = 9A9086F412EC4B7A00185F47 /* PBXTextBookmark */;
-			9A9086F512EC4B7F00185F47 /* PBXTextBookmark */ = 9A9086F512EC4B7F00185F47 /* PBXTextBookmark */;
-			9A9086F612EC4B9700185F47 /* PBXTextBookmark */ = 9A9086F612EC4B9700185F47 /* PBXTextBookmark */;
-			9A90870012EDB6F300185F47 /* PBXTextBookmark */ = 9A90870012EDB6F300185F47 /* PBXTextBookmark */;
-			9A90870112EDB6F300185F47 /* PBXTextBookmark */ = 9A90870112EDB6F300185F47 /* PBXTextBookmark */;
-			9A90870212EDB6F300185F47 /* PBXTextBookmark */ = 9A90870212EDB6F300185F47 /* PBXTextBookmark */;
-			9A90870312EDB6F300185F47 /* PBXTextBookmark */ = 9A90870312EDB6F300185F47 /* PBXTextBookmark */;
-			9A90870712EDB77800185F47 /* PBXTextBookmark */ = 9A90870712EDB77800185F47 /* PBXTextBookmark */;
-			9A90871212EDBAC200185F47 /* PBXTextBookmark */ = 9A90871212EDBAC200185F47 /* PBXTextBookmark */;
-			9A90871312EDBAC200185F47 /* PBXTextBookmark */ = 9A90871312EDBAC200185F47 /* PBXTextBookmark */;
-			9A90871412EDBAC200185F47 /* PBXTextBookmark */ = 9A90871412EDBAC200185F47 /* PBXTextBookmark */;
-			9A90871512EDBAC200185F47 /* PBXTextBookmark */ = 9A90871512EDBAC200185F47 /* PBXTextBookmark */;
-			9A90871612EDBAC200185F47 /* PBXTextBookmark */ = 9A90871612EDBAC200185F47 /* PBXTextBookmark */;
-			9A90871712EDBAC200185F47 /* PBXTextBookmark */ = 9A90871712EDBAC200185F47 /* PBXTextBookmark */;
-			9A90871812EDBAC200185F47 /* PBXTextBookmark */ = 9A90871812EDBAC200185F47 /* PBXTextBookmark */;
-			9A90871912EDBBB000185F47 /* PBXTextBookmark */ = 9A90871912EDBBB000185F47 /* PBXTextBookmark */;
-			9A90871A12EDBBB000185F47 /* PBXTextBookmark */ = 9A90871A12EDBBB000185F47 /* PBXTextBookmark */;
-			9A90871B12EDBBB000185F47 /* PBXTextBookmark */ = 9A90871B12EDBBB000185F47 /* PBXTextBookmark */;
-			9A90871C12EDBBB000185F47 /* PBXTextBookmark */ = 9A90871C12EDBBB000185F47 /* PBXTextBookmark */;
-			9A90872112EDBC3000185F47 /* XCBuildMessageTextBookmark */ = 9A90872112EDBC3000185F47 /* XCBuildMessageTextBookmark */;
-			9A90872812EDBCEF00185F47 /* PBXTextBookmark */ = 9A90872812EDBCEF00185F47 /* PBXTextBookmark */;
-			9A90872B12EDBCEF00185F47 /* PBXTextBookmark */ = 9A90872B12EDBCEF00185F47 /* PBXTextBookmark */;
-			9A90872F12EDBD3600185F47 /* PBXTextBookmark */ = 9A90872F12EDBD3600185F47 /* PBXTextBookmark */;
-			9A90873012EDBD3600185F47 /* PBXTextBookmark */ = 9A90873012EDBD3600185F47 /* PBXTextBookmark */;
-			9A90873512EDBE2F00185F47 /* PBXTextBookmark */ = 9A90873512EDBE2F00185F47 /* PBXTextBookmark */;
-			9A90873612EDBE2F00185F47 /* PBXTextBookmark */ = 9A90873612EDBE2F00185F47 /* PBXTextBookmark */;
-			9A90873C12EDBFFF00185F47 /* PBXTextBookmark */ = 9A90873C12EDBFFF00185F47 /* PBXTextBookmark */;
-			9A90873F12EDC22C00185F47 /* PBXTextBookmark */ = 9A90873F12EDC22C00185F47 /* PBXTextBookmark */;
-			9A90874312EDC24400185F47 /* XCBuildMessageTextBookmark */ = 9A90874312EDC24400185F47 /* XCBuildMessageTextBookmark */;
-			9A90874412EDC24400185F47 /* PBXTextBookmark */ = 9A90874412EDC24400185F47 /* PBXTextBookmark */;
-			9A90874712EDC24C00185F47 /* PBXTextBookmark */ = 9A90874712EDC24C00185F47 /* PBXTextBookmark */;
-			9A90874812EDC24C00185F47 /* PBXTextBookmark */ = 9A90874812EDC24C00185F47 /* PBXTextBookmark */;
-			9A90874F12EDC33200185F47 /* PBXTextBookmark */ = 9A90874F12EDC33200185F47 /* PBXTextBookmark */;
-			9A90875012EDC33200185F47 /* PBXTextBookmark */ = 9A90875012EDC33200185F47 /* PBXTextBookmark */;
-			9A90875312EDC38A00185F47 /* PBXTextBookmark */ = 9A90875312EDC38A00185F47 /* PBXTextBookmark */;
-			9A90875412EDC38A00185F47 /* PBXTextBookmark */ = 9A90875412EDC38A00185F47 /* PBXTextBookmark */;
-			9A90875512EDC38A00185F47 /* PBXTextBookmark */ = 9A90875512EDC38A00185F47 /* PBXTextBookmark */;
-			9A90875612EDC38A00185F47 /* PBXTextBookmark */ = 9A90875612EDC38A00185F47 /* PBXTextBookmark */;
-			9A90875712EDC38A00185F47 /* PBXTextBookmark */ = 9A90875712EDC38A00185F47 /* PBXTextBookmark */;
-			9A90875812EDC38A00185F47 /* PBXTextBookmark */ = 9A90875812EDC38A00185F47 /* PBXTextBookmark */;
-			9A90875912EDC38A00185F47 /* PBXTextBookmark */ = 9A90875912EDC38A00185F47 /* PBXTextBookmark */;
-			9A90875C12EDC39600185F47 /* PBXTextBookmark */ = 9A90875C12EDC39600185F47 /* PBXTextBookmark */;
-			9A90875D12EDC41400185F47 /* PBXTextBookmark */ = 9A90875D12EDC41400185F47 /* PBXTextBookmark */;
-			9A90876212EDC4CF00185F47 /* PBXTextBookmark */ = 9A90876212EDC4CF00185F47 /* PBXTextBookmark */;
-			9A90876312EDC53F00185F47 /* PBXTextBookmark */ = 9A90876312EDC53F00185F47 /* PBXTextBookmark */;
-			9A90876612EDC55300185F47 /* PBXTextBookmark */ = 9A90876612EDC55300185F47 /* PBXTextBookmark */;
-			9A90876712EDC55300185F47 /* PBXTextBookmark */ = 9A90876712EDC55300185F47 /* PBXTextBookmark */;
-			9A90876812EDC55300185F47 /* PBXTextBookmark */ = 9A90876812EDC55300185F47 /* PBXTextBookmark */;
-			9A90876F12EDC5C700185F47 /* PBXTextBookmark */ = 9A90876F12EDC5C700185F47 /* PBXTextBookmark */;
-			9A90877212EDC5CE00185F47 /* PBXTextBookmark */ = 9A90877212EDC5CE00185F47 /* PBXTextBookmark */;
-			9A90877712EDC5EC00185F47 /* PBXTextBookmark */ = 9A90877712EDC5EC00185F47 /* PBXTextBookmark */;
-			9A90877812EDC5F000185F47 /* PBXTextBookmark */ = 9A90877812EDC5F000185F47 /* PBXTextBookmark */;
+			9A7DA52F12F4686A003D1F21 = 9A7DA52F12F4686A003D1F21 /* PBXTextBookmark */;
+			9A7DA53012F4686A003D1F21 = 9A7DA53012F4686A003D1F21 /* PBXTextBookmark */;
+			9A7DA54C12F5B09B003D1F21 = 9A7DA54C12F5B09B003D1F21 /* PBXTextBookmark */;
+			9A90871212EDBAC200185F47 = 9A90871212EDBAC200185F47 /* PBXTextBookmark */;
+			9A90871412EDBAC200185F47 = 9A90871412EDBAC200185F47 /* PBXTextBookmark */;
+			9A90871512EDBAC200185F47 = 9A90871512EDBAC200185F47 /* PBXTextBookmark */;
+			9A90875412EDC38A00185F47 = 9A90875412EDC38A00185F47 /* PBXTextBookmark */;
+			9A90875512EDC38A00185F47 = 9A90875512EDC38A00185F47 /* PBXTextBookmark */;
+			9A90875612EDC38A00185F47 = 9A90875612EDC38A00185F47 /* PBXTextBookmark */;
+			9A90876612EDC55300185F47 = 9A90876612EDC55300185F47 /* PBXTextBookmark */;
+			9A90876712EDC55300185F47 = 9A90876712EDC55300185F47 /* PBXTextBookmark */;
 			9A920EC112CB87A500813B6A = 9A920EC112CB87A500813B6A /* PBXTextBookmark */;
-			9A920EC212CB87A500813B6A = 9A920EC212CB87A500813B6A /* PBXTextBookmark */;
-			9A920EC512CB87A500813B6A = 9A920EC512CB87A500813B6A /* PBXTextBookmark */;
-			9A920F3712CCCD9E00813B6A = 9A920F3712CCCD9E00813B6A /* PBXTextBookmark */;
 			9A920F8512D02D9000813B6A = 9A920F8512D02D9000813B6A /* PBXTextBookmark */;
 			9A9210D212D1693E00813B6A = 9A9210D212D1693E00813B6A /* PBXTextBookmark */;
-			9A9210E712D1776D00813B6A = 9A9210E712D1776D00813B6A /* PBXTextBookmark */;
 			9A92110012D1785B00813B6A = 9A92110012D1785B00813B6A /* PBXTextBookmark */;
-			9A92117D12D20E6B00813B6A = 9A92117D12D20E6B00813B6A /* PBXTextBookmark */;
-			9A9211C712D3530000813B6A = 9A9211C712D3530000813B6A /* PBXTextBookmark */;
-			9A9211C912D3530000813B6A = 9A9211C912D3530000813B6A /* PBXTextBookmark */;
-			9A9211CB12D3530000813B6A = 9A9211CB12D3530000813B6A /* PBXTextBookmark */;
-			9A9211F012D3596300813B6A = 9A9211F012D3596300813B6A /* PBXTextBookmark */;
-			9A92121E12D7F95C00813B6A = 9A92121E12D7F95C00813B6A /* PBXTextBookmark */;
-			9A9A8C8F1259824600EA8A1A = 9A9A8C8F1259824600EA8A1A /* PBXTextBookmark */;
 			9A9A8CEC1259936600EA8A1A = 9A9A8CEC1259936600EA8A1A /* PlistBookmark */;
 			9A9A8CF2125996F200EA8A1A = 9A9A8CF2125996F200EA8A1A /* PlistBookmark */;
-			9AA1DCA311C2677F00412CBC = 9AA1DCA311C2677F00412CBC /* PBXTextBookmark */;
 			9AB952511249E0410066897F = 9AB952511249E0410066897F /* PBXBookmark */;
 			9AB952521249E0410066897F = 9AB952521249E0410066897F /* PBXBookmark */;
 			9AC2A5AB118F1C36007B29E1 = 9AC2A5AB118F1C36007B29E1 /* PBXTextBookmark */;
-			9AD1D51412BCB4E3004F4085 = 9AD1D51412BCB4E3004F4085 /* PBXTextBookmark */;
 			9AD1D54212BD138E004F4085 = 9AD1D54212BD138E004F4085 /* PBXTextBookmark */;
 			9AD1D54312BD138E004F4085 = 9AD1D54312BD138E004F4085 /* PBXTextBookmark */;
-			9AD1D57212BD9F78004F4085 = 9AD1D57212BD9F78004F4085 /* PBXTextBookmark */;
-			9AD1D5CF12BE41C2004F4085 = 9AD1D5CF12BE41C2004F4085 /* PBXTextBookmark */;
-			9AE73BDD11BBA48500A572E9 = 9AE73BDD11BBA48500A572E9 /* PBXTextBookmark */;
-			9AE73C1011BD1FF800A572E9 = 9AE73C1011BD1FF800A572E9 /* PBXTextBookmark */;
+			9AD865DB12F5B180002F9A62 = 9AD865DB12F5B180002F9A62 /* PBXTextBookmark */;
+			9AD8660112F5B18C002F9A62 /* PBXTextBookmark */ = 9AD8660112F5B18C002F9A62 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9A62D296118BFC580093B8BF /* Source Control */;
 		userBuildSettings = {
@@ -242,16 +178,6 @@
 		vrLen = 437;
 		vrLoc = 0;
 	};
-	9A205581125A383500B084B8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* FakeSMSAppDelegate.m */;
-		name = "FakeSMSAppDelegate.m: 26";
-		rLen = 158;
-		rLoc = 604;
-		rType = 0;
-		vrLen = 862;
-		vrLoc = 0;
-	};
 	9A42B102125CCA0500D65B35 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
@@ -279,16 +205,6 @@
 		modificationTime = 317572561.222191;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
-	};
-	9A4C89F5125B65A400811963 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* FakeSMS_Prefix.pch */;
-		name = "FakeSMS_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 183;
-		vrLoc = 0;
 	};
 	9A5C42BC125567CC00F55BCD /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -329,30 +245,6 @@
 			sepNavWindowFrame = "{{15, 49}, {1217, 729}}";
 		};
 	};
-	9A62D107118FC94D0020B492 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D108118FC94D0020B492 /* NSDictionary.h */;
-		name = "NSDictionary.h: 12";
-		rLen = 94;
-		rLoc = 241;
-		rType = 0;
-		vrLen = 1150;
-		vrLoc = 0;
-	};
-	9A62D108118FC94D0020B492 /* NSDictionary.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = NSDictionary.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h;
-		sourceTree = "<absolute>";
-	};
-	9A62D112118FC9E50020B492 /* CGGeometry.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CGGeometry.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h;
-		sourceTree = "<absolute>";
-	};
 	9A62D20111900E790020B492 /* NSColor.h:2 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -365,9 +257,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 2;
-		modificationTime = 317572561.213755;
+		modificationTime = 318005777.385675;
 		originalNumberOfMultipleMatches = 1;
-		state = 0;
+		state = 1;
 	};
 	9A62D20211900E790020B492 /* NSColor.h */ = {
 		isa = PBXFileReference;
@@ -494,7 +386,7 @@
 	};
 	9A62D2EE118C214C0093B8BF /* SMSPreview.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1230, 573}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1230, 597}}";
 			sepNavSelRange = "{162, 34}";
 			sepNavVisRange = "{0, 1135}";
 			sepNavWindowFrame = "{{38, 194}, {750, 558}}";
@@ -515,148 +407,41 @@
 		path = "/Work/AppleDevelop/Code/Beginning iPhone Dev Aug 2 2009/09 Nav/Classes/FirstLevelViewController.m";
 		sourceTree = "<absolute>";
 	};
-	9A62D4AD11905E3C0020B492 /* UILabel.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = UILabel.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILabel.h;
-		sourceTree = "<absolute>";
-	};
-	9A6D682F1249E26C00EE7B87 /* PBXTextBookmark */ = {
+	9A7DA52F12F4686A003D1F21 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 9AA1DC6211C25BC100412CBC /* UIView.h */;
-		name = "UIView.h: 131";
-		rLen = 113;
-		rLoc = 5743;
-		rType = 0;
-		vrLen = 1660;
-		vrLoc = 4881;
-	};
-	9A9086EC12EC100600185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 162";
+		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
+		name = "EditableCell.m: 58";
 		rLen = 0;
-		rLoc = 5404;
+		rLoc = 1844;
 		rType = 0;
-		vrLen = 2042;
-		vrLoc = 4338;
+		vrLen = 1600;
+		vrLoc = 1166;
 	};
-	9A9086ED12EC100600185F47 /* PBXTextBookmark */ = {
+	9A7DA53012F4686A003D1F21 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 162";
-		rLen = 0;
-		rLoc = 5404;
+		fRef = 9A62D2EE118C214C0093B8BF /* SMSPreview.h */;
+		name = "SMSPreview.h: 10";
+		rLen = 34;
+		rLoc = 162;
 		rType = 0;
-		vrLen = 1960;
-		vrLoc = 4435;
-	};
-	9A9086F212EC4B7A00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB412CB844200813B6A /* SMSTimingViewController.h */;
-		name = "SMSTimingViewController.h: 11";
-		rLen = 0;
-		rLoc = 244;
-		rType = 0;
-		vrLen = 716;
+		vrLen = 1135;
 		vrLoc = 0;
 	};
-	9A9086F312EC4B7A00185F47 /* PBXTextBookmark */ = {
+	9A7DA54C12F5B09B003D1F21 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 167";
+		name = "SMSTimingViewController.m: 1";
 		rLen = 0;
-		rLoc = 5494;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 2164;
-		vrLoc = 4576;
-	};
-	9A9086F412EC4B7A00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 167";
-		rLen = 0;
-		rLoc = 5494;
-		rType = 0;
-		vrLen = 2163;
-		vrLoc = 4577;
-	};
-	9A9086F512EC4B7F00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 167";
-		rLen = 0;
-		rLoc = 5494;
-		rType = 0;
-		vrLen = 973;
-		vrLoc = 5226;
-	};
-	9A9086F612EC4B9700185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 167";
-		rLen = 0;
-		rLoc = 5494;
-		rType = 0;
-		vrLen = 1978;
-		vrLoc = 5463;
-	};
-	9A90870012EDB6F300185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB412CB844200813B6A /* SMSTimingViewController.h */;
-		name = "SMSTimingViewController.h: 11";
-		rLen = 0;
-		rLoc = 244;
-		rType = 0;
-		vrLen = 716;
+		vrLen = 0;
 		vrLoc = 0;
-	};
-	9A90870112EDB6F300185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D2EF118C214C0093B8BF /* SMSPreview.m */;
-		name = "SMSPreview.m: 387";
-		rLen = 1787;
-		rLoc = 14027;
-		rType = 0;
-		vrLen = 1550;
-		vrLoc = 14994;
-	};
-	9A90870212EDB6F300185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 166";
-		rLen = 0;
-		rLoc = 5494;
-		rType = 0;
-		vrLen = 1708;
-		vrLoc = 2295;
-	};
-	9A90870312EDB6F300185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 98";
-		rLen = 0;
-		rLoc = 3714;
-		rType = 0;
-		vrLen = 1671;
-		vrLoc = 317;
-	};
-	9A90870712EDB77800185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 162";
-		rLen = 0;
-		rLoc = 5404;
-		rType = 0;
-		vrLen = 1615;
-		vrLoc = 4262;
 	};
 	9A90870D12EDB88700185F47 /* EditableCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1944, 1625}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1944, 1651}}";
 			sepNavSelRange = "{1844, 0}";
-			sepNavVisRange = "{1342, 1422}";
+			sepNavVisRange = "{1166, 1600}";
 			sepNavWindowFrame = "{{15, 44}, {1217, 729}}";
 		};
 	};
@@ -677,16 +462,6 @@
 		vrLen = 483;
 		vrLoc = 0;
 	};
-	9A90871312EDBAC200185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 162";
-		rLen = 0;
-		rLoc = 5404;
-		rType = 0;
-		vrLen = 1296;
-		vrLoc = 82;
-	};
 	9A90871412EDBAC200185F47 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 32CA4F630368D1EE00C91783 /* FakeSMS_Prefix.pch */;
@@ -705,234 +480,6 @@
 		rLoc = 362;
 		rType = 0;
 		vrLen = 448;
-		vrLoc = 0;
-	};
-	9A90871612EDBAC200185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870E12EDB88700185F47 /* EditableCell.h */;
-		name = "EditableCell.h: 12";
-		rLen = 0;
-		rLoc = 222;
-		rType = 0;
-		vrLen = 1117;
-		vrLoc = 0;
-	};
-	9A90871712EDBAC200185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1554;
-		vrLoc = 0;
-	};
-	9A90871812EDBAC200185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 11";
-		rLen = 0;
-		rLoc = 191;
-		rType = 0;
-		vrLen = 1645;
-		vrLoc = 0;
-	};
-	9A90871912EDBBB000185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870E12EDB88700185F47 /* EditableCell.h */;
-		name = "EditableCell.h: 12";
-		rLen = 0;
-		rLoc = 222;
-		rType = 0;
-		vrLen = 1117;
-		vrLoc = 0;
-	};
-	9A90871A12EDBBB000185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 11";
-		rLen = 12;
-		rLoc = 183;
-		rType = 0;
-		vrLen = 1645;
-		vrLoc = 0;
-	};
-	9A90871B12EDBBB000185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 154";
-		rLen = 12;
-		rLoc = 5126;
-		rType = 0;
-		vrLen = 1741;
-		vrLoc = 4303;
-	};
-	9A90871C12EDBBB000185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 154";
-		rLen = 0;
-		rLoc = 5138;
-		rType = 0;
-		vrLen = 1738;
-		vrLoc = 4303;
-	};
-	9A90872112EDBC3000185F47 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'BOLDFONT' undeclared (first use in this function)";
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 0;
-		rLoc = 52;
-		rType = 1;
-	};
-	9A90872812EDBCEF00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 10";
-		rLen = 0;
-		rLoc = 204;
-		rType = 0;
-		vrLen = 1832;
-		vrLoc = 4457;
-	};
-	9A90872B12EDBCEF00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 107";
-		rLen = 0;
-		rLoc = 3793;
-		rType = 0;
-		vrLen = 961;
-		vrLoc = 2916;
-	};
-	9A90872F12EDBD3600185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 10";
-		rLen = 0;
-		rLoc = 204;
-		rType = 0;
-		vrLen = 1918;
-		vrLoc = 4459;
-	};
-	9A90873012EDBD3600185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 28";
-		rLen = 0;
-		rLoc = 1009;
-		rType = 0;
-		vrLen = 1583;
-		vrLoc = 86;
-	};
-	9A90873512EDBE2F00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 10";
-		rLen = 0;
-		rLoc = 204;
-		rType = 0;
-		vrLen = 1852;
-		vrLoc = 4550;
-	};
-	9A90873612EDBE2F00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 28";
-		rLen = 0;
-		rLoc = 1019;
-		rType = 0;
-		vrLen = 1563;
-		vrLoc = 139;
-	};
-	9A90873C12EDBFFF00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 157";
-		rLen = 0;
-		rLoc = 5404;
-		rType = 0;
-		vrLen = 1198;
-		vrLoc = 3834;
-	};
-	9A90873F12EDC22C00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 170";
-		rLen = 0;
-		rLoc = 6041;
-		rType = 0;
-		vrLen = 1821;
-		vrLoc = 4785;
-	};
-	9A90874312EDC24400185F47 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'BOLDFONT' undeclared (first use in this function)";
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 0;
-		rLoc = 52;
-		rType = 1;
-	};
-	9A90874412EDC24400185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 52";
-		rLen = 0;
-		rLoc = 1703;
-		rType = 0;
-		vrLen = 620;
-		vrLoc = 472;
-	};
-	9A90874712EDC24C00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 170";
-		rLen = 0;
-		rLoc = 6041;
-		rType = 0;
-		vrLen = 1821;
-		vrLoc = 4785;
-	};
-	9A90874812EDC24C00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 170";
-		rLen = 0;
-		rLoc = 6041;
-		rType = 0;
-		vrLen = 1790;
-		vrLoc = 4936;
-	};
-	9A90874F12EDC33200185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 170";
-		rLen = 0;
-		rLoc = 6041;
-		rType = 0;
-		vrLen = 1790;
-		vrLoc = 4936;
-	};
-	9A90875012EDC33200185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870E12EDB88700185F47 /* EditableCell.h */;
-		name = "EditableCell.h: 12";
-		rLen = 0;
-		rLoc = 222;
-		rType = 0;
-		vrLen = 1117;
-		vrLoc = 0;
-	};
-	9A90875312EDC38A00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870E12EDB88700185F47 /* EditableCell.h */;
-		name = "EditableCell.h: 12";
-		rLen = 0;
-		rLoc = 222;
-		rType = 0;
-		vrLen = 1117;
 		vrLoc = 0;
 	};
 	9A90875412EDC38A00185F47 /* PBXTextBookmark */ = {
@@ -965,76 +512,6 @@
 		vrLen = 794;
 		vrLoc = 0;
 	};
-	9A90875712EDC38A00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D2EE118C214C0093B8BF /* SMSPreview.h */;
-		name = "SMSPreview.h: 10";
-		rLen = 34;
-		rLoc = 162;
-		rType = 0;
-		vrLen = 1135;
-		vrLoc = 0;
-	};
-	9A90875812EDC38A00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9AD1D4FF12BCB166004F4085 /* SettingView.h */;
-		name = "SettingView.h: 10";
-		rLen = 0;
-		rLoc = 189;
-		rType = 0;
-		vrLen = 676;
-		vrLoc = 0;
-	};
-	9A90875912EDC38A00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9AD1D4FF12BCB166004F4085 /* SettingView.h */;
-		name = "SettingView.h: 9";
-		rLen = 23;
-		rLoc = 133;
-		rType = 0;
-		vrLen = 676;
-		vrLoc = 0;
-	};
-	9A90875C12EDC39600185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9AD1D4FF12BCB166004F4085 /* SettingView.h */;
-		name = "SettingView.h: 9";
-		rLen = 23;
-		rLoc = 133;
-		rType = 0;
-		vrLen = 676;
-		vrLoc = 0;
-	};
-	9A90875D12EDC41400185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9AD1D4FF12BCB166004F4085 /* SettingView.h */;
-		name = "SettingView.h: 9";
-		rLen = 23;
-		rLoc = 133;
-		rType = 0;
-		vrLen = 676;
-		vrLoc = 0;
-	};
-	9A90876212EDC4CF00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9AD1D4FF12BCB166004F4085 /* SettingView.h */;
-		name = "SettingView.h: 9";
-		rLen = 23;
-		rLoc = 133;
-		rType = 0;
-		vrLen = 676;
-		vrLoc = 0;
-	};
-	9A90876312EDC53F00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 57";
-		rLen = 0;
-		rLoc = 1742;
-		rType = 0;
-		vrLen = 517;
-		vrLoc = 600;
-	};
 	9A90876612EDC55300185F47 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9AD1D4FF12BCB166004F4085 /* SettingView.h */;
@@ -1055,56 +532,6 @@
 		vrLen = 1117;
 		vrLoc = 0;
 	};
-	9A90876812EDC55300185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 58";
-		rLen = 0;
-		rLoc = 1844;
-		rType = 0;
-		vrLen = 1505;
-		vrLoc = 1100;
-	};
-	9A90876F12EDC5C700185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 58";
-		rLen = 0;
-		rLoc = 1845;
-		rType = 0;
-		vrLen = 494;
-		vrLoc = 600;
-	};
-	9A90877212EDC5CE00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 58";
-		rLen = 0;
-		rLoc = 1844;
-		rType = 0;
-		vrLen = 1422;
-		vrLoc = 1342;
-	};
-	9A90877712EDC5EC00185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 58";
-		rLen = 0;
-		rLoc = 1845;
-		rType = 0;
-		vrLen = 494;
-		vrLoc = 600;
-	};
-	9A90877812EDC5F000185F47 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A90870D12EDB88700185F47 /* EditableCell.m */;
-		name = "EditableCell.m: 58";
-		rLen = 0;
-		rLoc = 1844;
-		rType = 0;
-		vrLen = 1422;
-		vrLoc = 1342;
-	};
 	9A920EB412CB844200813B6A /* SMSTimingViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1559, 573}}";
@@ -1114,9 +541,9 @@
 	};
 	9A920EB512CB844200813B6A /* SMSTimingViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1020, 4810}}";
-			sepNavSelRange = "{5114, 0}";
-			sepNavVisRange = "{4598, 1181}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 4290}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1368}";
 		};
 	};
 	9A920EC112CB87A500813B6A /* PBXTextBookmark */ = {
@@ -1127,36 +554,6 @@
 		rLoc = 304;
 		rType = 0;
 		vrLen = 310;
-		vrLoc = 0;
-	};
-	9A920EC212CB87A500813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D2C8118C0A630093B8BF /* SecondLevelViewController.h */;
-		name = "SecondLevelViewController.h: 9";
-		rLen = 0;
-		rLoc = 178;
-		rType = 0;
-		vrLen = 483;
-		vrLoc = 0;
-	};
-	9A920EC512CB87A500813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9AD1D4FF12BCB166004F4085 /* SettingView.h */;
-		name = "SettingView.h: 10";
-		rLen = 0;
-		rLoc = 189;
-		rType = 0;
-		vrLen = 676;
-		vrLoc = 0;
-	};
-	9A920F3712CCCD9E00813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D2EE118C214C0093B8BF /* SMSPreview.h */;
-		name = "SMSPreview.h: 16";
-		rLen = 122;
-		rLoc = 318;
-		rType = 0;
-		vrLen = 1130;
 		vrLoc = 0;
 	};
 	9A920F8512D02D9000813B6A /* PBXTextBookmark */ = {
@@ -1197,16 +594,6 @@
 		vrLen = 544;
 		vrLoc = 0;
 	};
-	9A9210E712D1776D00813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB412CB844200813B6A /* SMSTimingViewController.h */;
-		name = "SMSTimingViewController.h: 11";
-		rLen = 0;
-		rLoc = 244;
-		rType = 0;
-		vrLen = 716;
-		vrLoc = 0;
-	};
 	9A92110012D1785B00813B6A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9A62D299118BFCFF0093B8BF /* FirstLevelViewController.m */;
@@ -1216,104 +603,6 @@
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 1351;
-	};
-	9A92117D12D20E6B00813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D2EF118C214C0093B8BF /* SMSPreview.m */;
-		name = "SMSPreview.m: 387";
-		rLen = 1787;
-		rLoc = 14027;
-		rType = 0;
-		vrLen = 1186;
-		vrLoc = 15166;
-	};
-	9A9211C712D3530000813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A9211C812D3530000813B6A /* EditableSettingsCell-1.m */;
-		name = "EditableSettingsCell-1.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 809;
-		vrLoc = 3756;
-	};
-	9A9211C812D3530000813B6A /* EditableSettingsCell-1.m */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.objc;
-		name = "EditableSettingsCell-1.m";
-		path = "/Users/feder/Downloads/EditableSettingsCell-1.m";
-		sourceTree = "<absolute>";
-	};
-	9A9211C912D3530000813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A9211CA12D3530000813B6A /* EditableSettingsCell.h */;
-		name = "EditableSettingsCell.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1088;
-		vrLoc = 46;
-	};
-	9A9211CA12D3530000813B6A /* EditableSettingsCell.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = EditableSettingsCell.h;
-		path = /Users/feder/Downloads/EditableSettingsCell.h;
-		sourceTree = "<absolute>";
-	};
-	9A9211CB12D3530000813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A9211CC12D3530000813B6A /* EditableSettingsCell.m */;
-		name = "EditableSettingsCell.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1488;
-		vrLoc = 259;
-	};
-	9A9211CC12D3530000813B6A /* EditableSettingsCell.m */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.objc;
-		name = EditableSettingsCell.m;
-		path = /Users/feder/Downloads/EditableSettingsCell.m;
-		sourceTree = "<absolute>";
-	};
-	9A9211F012D3596300813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 194";
-		rLen = 0;
-		rLoc = 6123;
-		rType = 0;
-		vrLen = 1679;
-		vrLoc = 6305;
-	};
-	9A92121E12D7F95C00813B6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
-		name = "SMSTimingViewController.m: 146";
-		rLen = 15;
-		rLoc = 4604;
-		rType = 0;
-		vrLen = 1710;
-		vrLoc = 4557;
-	};
-	9A9A8C8F1259824600EA8A1A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A9A8C901259824600EA8A1A /* UITableView.h */;
-		name = "UITableView.h: 215";
-		rLen = 140;
-		rLoc = 9781;
-		rType = 0;
-		vrLen = 2818;
-		vrLoc = 8840;
-	};
-	9A9A8C901259824600EA8A1A /* UITableView.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = UITableView.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h;
-		sourceTree = "<absolute>";
 	};
 	9A9A8CEC1259936600EA8A1A /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -1338,23 +627,6 @@
 		name = /Work/GitFolder/ismymessage.plist;
 		rLen = 0;
 		rLoc = 9223372036854775808;
-	};
-	9AA1DC6211C25BC100412CBC /* UIView.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = UIView.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
-		sourceTree = "<absolute>";
-	};
-	9AA1DCA311C2677F00412CBC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D112118FC9E50020B492 /* CGGeometry.h */;
-		name = "CGGeometry.h: 264";
-		rLen = 42;
-		rLoc = 8376;
-		rType = 0;
-		vrLen = 813;
-		vrLoc = 8018;
 	};
 	9AB9524C1249DEB80066897F /* bubble.png */ = {
 		uiCtxt = {
@@ -1394,16 +666,6 @@
 			sepNavWindowFrame = "{{15, 44}, {1217, 729}}";
 		};
 	};
-	9AD1D51412BCB4E3004F4085 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D298118BFCFF0093B8BF /* FirstLevelViewController.h */;
-		name = "FirstLevelViewController.h: 12";
-		rLen = 0;
-		rLoc = 362;
-		rType = 0;
-		vrLen = 448;
-		vrLoc = 0;
-	};
 	9AD1D53912BCE93B004F4085 /* AboutViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {868, 464}}";
@@ -1438,39 +700,25 @@
 		vrLen = 866;
 		vrLoc = 0;
 	};
-	9AD1D57212BD9F78004F4085 /* PBXTextBookmark */ = {
+	9AD865DB12F5B180002F9A62 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 9AD1D57312BD9F78004F4085 /* NSLocale.h */;
-		name = "NSLocale.h: 13";
-		rLen = 53;
-		rLoc = 248;
+		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
+		name = "SMSTimingViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 763;
+		vrLen = 1371;
 		vrLoc = 0;
 	};
-	9AD1D57312BD9F78004F4085 /* NSLocale.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = NSLocale.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSLocale.h;
-		sourceTree = "<absolute>";
-	};
-	9AD1D5CF12BE41C2004F4085 /* PBXTextBookmark */ = {
+	9AD8660112F5B18C002F9A62 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 9AD1D5D012BE41C2004F4085 /* NSDateFormatter.h */;
-		name = "NSDateFormatter.h: 28";
-		rLen = 14;
-		rLoc = 869;
+		fRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */;
+		name = "SMSTimingViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1020;
+		vrLen = 1368;
 		vrLoc = 0;
-	};
-	9AD1D5D012BE41C2004F4085 /* NSDateFormatter.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = NSDateFormatter.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDateFormatter.h;
-		sourceTree = "<absolute>";
 	};
 	9AE21890125C208100C58422 /* SMSPreview.m:291 */ = {
 		isa = PBXFileBreakpoint;
@@ -1526,23 +774,6 @@
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	9AE73BDD11BBA48500A572E9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9AE73BDE11BBA48500A572E9 /* UIStringDrawing.h */;
-		name = "UIStringDrawing.h: 50";
-		rLen = 166;
-		rLoc = 2525;
-		rType = 0;
-		vrLen = 3097;
-		vrLoc = 1418;
-	};
-	9AE73BDE11BBA48500A572E9 /* UIStringDrawing.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = UIStringDrawing.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h;
-		sourceTree = "<absolute>";
-	};
 	9AE73BE411BBA4E400A572E9 /* SMSPreview.m:470 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -1560,15 +791,5 @@
 		modificationTime = 317572561.217739;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
-	};
-	9AE73C1011BD1FF800A572E9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9A62D4AD11905E3C0020B492 /* UILabel.h */;
-		name = "UILabel.h: 16";
-		rLen = 58;
-		rLoc = 278;
-		rType = 0;
-		vrLen = 773;
-		vrLoc = 0;
 	};
 }
