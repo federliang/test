@@ -38,6 +38,7 @@
 		9AB9524F1249DEB80066897F /* bubbleSelf.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB9524D1249DEB80066897F /* bubbleSelf.png */; };
 		9AD1D50112BCB166004F4085 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1D50012BCB166004F4085 /* SettingViewController.m */; };
 		9AD1D53B12BCE93B004F4085 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1D53A12BCE93B004F4085 /* AboutViewController.m */; };
+		9ADC099D135EF01200A6CD06 /* SMSPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC099C135EF01200A6CD06 /* SMSPreviewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		9AD1D50012BCB166004F4085 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		9AD1D53912BCE93B004F4085 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		9AD1D53A12BCE93B004F4085 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		9ADC099C135EF01200A6CD06 /* SMSPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSPreviewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				9A433E6E135C5B2B003E84DB /* ThirdLevelViewController.m */,
 				9A62D2EE118C214C0093B8BF /* SMSPreviewViewController.h */,
 				9A62D2EF118C214C0093B8BF /* SMSPreviewViewController.m */,
+				9ADC099C135EF01200A6CD06 /* SMSPreviewViewController.m */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				9AD1D4FF12BCB166004F4085 /* SettingViewController.h */,
 				9AD1D50012BCB166004F4085 /* SettingViewController.m */,
@@ -280,6 +283,7 @@
 				9A90870F12EDB88700185F47 /* EditableCell.m in Sources */,
 				9A656550135AE3B10013E069 /* MySingleton.m in Sources */,
 				9A433E6F135C5B2B003E84DB /* ThirdLevelViewController.m in Sources */,
+				9ADC099D135EF01200A6CD06 /* SMSPreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

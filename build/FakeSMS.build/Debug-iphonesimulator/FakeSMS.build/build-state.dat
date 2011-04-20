@@ -1,7 +1,7 @@
 TFakeSMS
 v7
 r0
-t324906112.893964
+t324988873.666864
 cCheck dependencies
 cProcessInfoPlistFile /Users/feder/test/build/Debug-iphonesimulator/FakeSMS.app/Info.plist FakeSMS-Info.plist
 cCompileXIB /Users/feder/test/MainWindow.xib
@@ -31,9 +31,6 @@ cCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal
 cCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/EditableCell.o /Users/feder/test/Classes/EditableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/MySingleton.o /Users/feder/test/Classes/MySingleton.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/ThirdLevelViewController.o /Users/feder/test/Classes/ThirdLevelViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/feder/test/build/Debug-iphonesimulator/FakeSMS.app/FakeSMS normal i386
-cGenerateDSYMFile /Users/feder/test/build/Debug-iphonesimulator/FakeSMS.app.dSYM /Users/feder/test/build/Debug-iphonesimulator/FakeSMS.app/FakeSMS
-cTouch /Users/feder/test/build/Debug-iphonesimulator/FakeSMS.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
 c000000004BCE5E8100000000000000EE
@@ -160,18 +157,15 @@ i"FakeSMSAppDelegate.h"
 i"MySingleton.h"
 
 N/Users/feder/test/Classes/../SMSPreviewViewController.h
-c000000004DAC3DCA000000000000047B
-t1303133642
+c000000004DAEB769000000000000047B
+t1303295849
 s1147
 i<Foundation/Foundation.h>
 
 N/Users/feder/test/Classes/../SMSPreviewViewController.m
-c000000004DAD74FE000000000000523E
-t1303213310
-s21054
-i"SMSPreviewViewController.h"
-i"FakeSMSAppDelegate.h"
-i"MySingleton.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/feder/test/Classes/../SecondLevelViewController.h
 c000000004CA9FFDD00000000000001E3
@@ -180,10 +174,9 @@ s483
 i<Foundation/Foundation.h>
 
 N/Users/feder/test/Classes/../SecondLevelViewController.m
-c000000004CA9FFE60000000000000136
-t1286209510
-s310
-i"SecondLevelViewController.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/feder/test/Classes/../main.m
 c000000004C9A1DE20000000000000161
@@ -234,13 +227,13 @@ s448
 i<Foundation/Foundation.h>
 
 N/Users/feder/test/Classes/FirstLevelViewController.m
-c000000004DAC2C080000000000000A43
-t1303129096
-s2627
+c000000004DAEB8340000000000000A4D
+t1303296052
+s2637
 i"FirstLevelViewController.h"
 i"SecondLevelViewController.h"
 i"SMSPreviewViewController.h"
-i"SettingView.h"
+i"SettingViewController.h"
 
 N/Users/feder/test/Classes/MySingleton.h
 c000000004DAACB7C000000000000015B
@@ -253,6 +246,17 @@ c000000004DAACF78000000000000033E
 t1303039864
 s830
 i"MySingleton.h"
+
+N/Users/feder/test/Classes/SMSPreviewViewController.h
+c000000004DAEB769000000000000047B
+t1303295849
+s1147
+i<Foundation/Foundation.h>
+
+N/Users/feder/test/Classes/SMSPreviewViewController.m
+c000000004DAEB89200000000000000C2
+t1303296146
+s194
 
 N/Users/feder/test/Classes/SMSSetViewController.h
 c000000004DAD476D00000000000004B8
@@ -288,6 +292,12 @@ i"EditableCell.h"
 i"SMSPreviewViewController.h"
 i"MySingleton.h"
 
+N/Users/feder/test/Classes/SecondLevelViewController.h
+c000000004CA9FFDD00000000000001E3
+t1286209501
+s483
+i<Foundation/Foundation.h>
+
 N/Users/feder/test/Classes/SettingView.h
 c000000004DAD52800000000000000345
 t1303204480
@@ -301,11 +311,18 @@ t1303204424
 s12594
 i"SettingView.h"
 
+N/Users/feder/test/Classes/SettingViewController.h
+c000000004DAD5380000000000000035F
+t1303204736
+s863
+i<UIKit/UIKit.h>
+i"SMSSetViewController.h"
+
 N/Users/feder/test/Classes/SettingViewController.m
 c000000004DAD5D580000000000003ADA
 t1303207256
 s15066
-i"SettingView.h"
+i"SettingViewController.h"
 
 N/Users/feder/test/Classes/ThirdLevelViewController.h
 c000000004DAC23AB00000000000000EF
@@ -358,8 +375,8 @@ s1135
 i<Foundation/Foundation.h>
 
 N/Users/feder/test/SMSPreviewViewController.h
-c000000004DAC3DCA000000000000047B
-t1303133642
+c000000004DAEB769000000000000047B
+t1303295849
 s1147
 i<Foundation/Foundation.h>
 
@@ -477,8 +494,8 @@ t1303201870
 s50692
 
 N/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/FirstLevelViewController.o
-t1303203054
-s53876
+t1303296062
+s53928
 
 N/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/MySingleton.o
 t1303201871
@@ -488,12 +505,20 @@ N/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objec
 t1303041038
 s114676
 
+N/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController-12939F9A444D2B80.o
+t2
+s0
+
+N/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController-F870F4F12E0B2479.o
+t2
+s0
+
 N/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController.o
-t1303213312
-s117588
+t2
+s0
 
 N/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSSetViewController.o
-t1303201871
+t1303296008
 s87352
 
 N/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSTimingViewController.o
@@ -1497,7 +1522,7 @@ lSLF07#2@74"Compile /Work/AppleDevelop/Code/FakeSMS/Classes/FirstLevelViewContro
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies324906112#324906112#0(0"0(0#1#0"8618358912#0"0#
+lSLF07#2@18"Check dependencies324988873#324988873#0(0"0(0#1#0"8603147808#0"0#
 
 CCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/AboutViewController.o /Users/feder/test/Classes/AboutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s324894670.826993
@@ -1591,8 +1616,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@52"Compile /Work/GitFolder/Classes/FakeSMSAppDelegate.m307789038#307789039#0(0"0(0#0#44"/Work/GitFolder/Classes/FakeSMSAppDelegate.m4300885448#1642"    cd /Work/GitFolder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-generated-files.hmap -I/Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-own-target-headers.hmap -I/Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-all-target-headers.hmap -iquote /Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-project-headers.hmap -F/Work/GitFolder/build/Debug-iphonesimulator -I/Work/GitFolder/build/Debug-iphonesimulator/include -I/Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources/i386 -I/Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources -include /var/folders/h9/h9JqLP6AEn8TAWj2Hmg88++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FakeSMS_Prefix-enoictigmkkrdydjjxuaqwdosdmh/FakeSMS_Prefix.pch -c /Work/GitFolder/Classes/FakeSMSAppDelegate.m -o /Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/FakeSMSAppDelegate.o0#
 
 CCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/FirstLevelViewController.o /Users/feder/test/Classes/FirstLevelViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324895854.492008
-e324895854.733694
+s324988862.504257
+e324988862.990667
 r1
 xCompileC
 xbuild/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/FirstLevelViewController.o
@@ -1601,7 +1626,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/feder/test/Classes/FirstLevelViewController.m324895854#324895854#0(0"0(0#0#52"/Users/feder/test/Classes/FirstLevelViewController.m8614692224#1731"    cd /Users/feder/test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-generated-files.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-own-target-headers.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-all-target-headers.hmap -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-project-headers.hmap -F/Users/feder/test/build/Debug-iphonesimulator -I/Users/feder/test/build/Debug-iphonesimulator/include -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources/i386 -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources -include /var/folders/h9/h9JqLP6AEn8TAWj2Hmg88++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FakeSMS_Prefix-djdncprzwldkisbzxnzuhrjsbmfo/FakeSMS_Prefix.pch -c /Users/feder/test/Classes/FirstLevelViewController.m -o /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/FirstLevelViewController.o0#
+lSLF07#2@60"Compile /Users/feder/test/Classes/FirstLevelViewController.m324988862#324988862#0(0"0(0#0#52"/Users/feder/test/Classes/FirstLevelViewController.m8620523520#1731"    cd /Users/feder/test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-generated-files.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-own-target-headers.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-all-target-headers.hmap -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-project-headers.hmap -F/Users/feder/test/build/Debug-iphonesimulator -I/Users/feder/test/build/Debug-iphonesimulator/include -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources/i386 -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources -include /var/folders/h9/h9JqLP6AEn8TAWj2Hmg88++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FakeSMS_Prefix-djdncprzwldkisbzxnzuhrjsbmfo/FakeSMS_Prefix.pch -c /Users/feder/test/Classes/FirstLevelViewController.m -o /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/FirstLevelViewController.o0#
 
 CCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/FirstLevelViewController.o /Work/AppleDevelop/Code/FakeSMS/Classes/FirstLevelViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297697361.335872
@@ -1725,10 +1750,16 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@47"Compile /Work/GitFolder/Classes/../SMSPreview.m315237877#315237877#0(0"0(0#0#39"/Work/GitFolder/Classes/../SMSPreview.m4300885448#1629"    cd /Work/GitFolder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-generated-files.hmap -I/Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-own-target-headers.hmap -I/Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-all-target-headers.hmap -iquote /Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-project-headers.hmap -F/Work/GitFolder/build/Debug-iphonesimulator -I/Work/GitFolder/build/Debug-iphonesimulator/include -I/Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources/i386 -I/Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources -include /var/folders/h9/h9JqLP6AEn8TAWj2Hmg88++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FakeSMS_Prefix-enoictigmkkrdydjjxuaqwdosdmh/FakeSMS_Prefix.pch -c /Work/GitFolder/Classes/../SMSPreview.m -o /Work/GitFolder/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreview.o0#
 
+CCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController-12939F9A444D2B80.o /Users/feder/test/Classes/../SMSPreviewViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController-F870F4F12E0B2479.o /Users/feder/test/Classes/SMSPreviewViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController.o /Users/feder/test/Classes/../SMSPreviewViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324906112.341260
-e324906112.613815
-r1
+s324988873.625315
+e324988873.666782
+r0
 xCompileC
 xbuild/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController.o
 x/Users/feder/test/Classes/../SMSPreviewViewController.m
@@ -1736,17 +1767,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/feder/test/Classes/../SMSPreviewViewController.m: In function '-[SMSPreviewViewController init]':
-o/Users/feder/test/Classes/../SMSPreviewViewController.m:51: warning: format not a string literal and no format arguments
-o/Users/feder/test/Classes/../SMSPreviewViewController.m: In function '-[SMSPreviewViewController saveAction]':
-o/Users/feder/test/Classes/../SMSPreviewViewController.m:218: warning: format not a string literal and no format arguments
-o/Users/feder/test/Classes/../SMSPreviewViewController.m: In function '-[SMSPreviewViewController loadThread:]':
-o/Users/feder/test/Classes/../SMSPreviewViewController.m:276: warning: class 'SMSPreviewViewController' does not implement the 'NSXMLParserDelegate' protocol
-lSLF07#2@63"Compile /Users/feder/test/Classes/../SMSPreviewViewController.m324906112#324906112#0(728"/Users/feder/test/Classes/../SMSPreviewViewController.m: In function '-[SMSPreviewViewController init]':/Users/feder/test/Classes/../SMSPreviewViewController.m:51: warning: format not a string literal and no format arguments/Users/feder/test/Classes/../SMSPreviewViewController.m: In function '-[SMSPreviewViewController saveAction]':/Users/feder/test/Classes/../SMSPreviewViewController.m:218: warning: format not a string literal and no format arguments/Users/feder/test/Classes/../SMSPreviewViewController.m: In function '-[SMSPreviewViewController loadThread:]':/Users/feder/test/Classes/../SMSPreviewViewController.m:276: warning: class 'SMSPreviewViewController' does not implement the 'NSXMLParserDelegate' protocol3(22@51"Format not a string literal and no format arguments324906112#105#121#0(6@55"/Users/feder/test/Classes/../SMSPreviewViewController.m324906110#51#0#51#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments324906112#337#122#0(6@55"/Users/feder/test/Classes/../SMSPreviewViewController.m324906110#218#0#218#0#51"format not a string literal and no format arguments0(22@86"Class 'SMSPreviewViewController' does not implement the 'NSXMLParserDelegate' protocol324906112#571#157#0(6@55"/Users/feder/test/Classes/../SMSPreviewViewController.m324906110#276#0#276#0#45"class '*' does not implement the '*' protocol0(0#0#55"/Users/feder/test/Classes/../SMSPreviewViewController.m8616855328#1734"    cd /Users/feder/test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-generated-files.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-own-target-headers.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-all-target-headers.hmap -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-project-headers.hmap -F/Users/feder/test/build/Debug-iphonesimulator -I/Users/feder/test/build/Debug-iphonesimulator/include -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources/i386 -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources -include /var/folders/h9/h9JqLP6AEn8TAWj2Hmg88++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FakeSMS_Prefix-djdncprzwldkisbzxnzuhrjsbmfo/FakeSMS_Prefix.pch -c /Users/feder/test/Classes/../SMSPreviewViewController.m -o /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController.o0#
+oi686-apple-darwin10-gcc-4.2.1: /Users/feder/test/Classes/../SMSPreviewViewController.m: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@63"Compile /Users/feder/test/Classes/../SMSPreviewViewController.m324988873#324988873#0(357"i686-apple-darwin10-gcc-4.2.1: /Users/feder/test/Classes/../SMSPreviewViewController.m: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1324988873#18446744073709551615#0#0(1@0"0(0#0#55"/Users/feder/test/Classes/../SMSPreviewViewController.m8622757632#1734"    cd /Users/feder/test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-generated-files.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-own-target-headers.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-all-target-headers.hmap -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-project-headers.hmap -F/Users/feder/test/build/Debug-iphonesimulator -I/Users/feder/test/build/Debug-iphonesimulator/include -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources/i386 -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources -include /var/folders/h9/h9JqLP6AEn8TAWj2Hmg88++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FakeSMS_Prefix-djdncprzwldkisbzxnzuhrjsbmfo/FakeSMS_Prefix.pch -c /Users/feder/test/Classes/../SMSPreviewViewController.m -o /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSPreviewViewController.o1#
 
 CCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSSetViewController.o /Users/feder/test/Classes/SMSSetViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324894670.921406
-e324894671.124381
+s324988806.160115
+e324988808.727842
 r1
 xCompileC
 xbuild/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSSetViewController.o
@@ -1757,7 +1785,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/feder/test/Classes/SMSSetViewController.m: In function '-[SMSSetViewController tableView:cellForRowAtIndexPath:]':
 o/Users/feder/test/Classes/SMSSetViewController.m:127: warning: incompatible Objective-C types initializing 'struct UITableViewCell *', expected 'struct EditableCell *'
-lSLF07#2@56"Compile /Users/feder/test/Classes/SMSSetViewController.m324894670#324894671#0(290"/Users/feder/test/Classes/SMSSetViewController.m: In function '-[SMSSetViewController tableView:cellForRowAtIndexPath:]':/Users/feder/test/Classes/SMSSetViewController.m:127: warning: incompatible Objective-C types initializing 'struct UITableViewCell *', expected 'struct EditableCell *'1(22@104"Incompatible Objective-C types initializing 'struct UITableViewCell *', expected 'struct EditableCell *'324894670#122#168#0(6@48"/Users/feder/test/Classes/SMSSetViewController.m324894581#127#0#127#0#61"incompatible Objective-C types initializing '*', expected '*'0(0#0#48"/Users/feder/test/Classes/SMSSetViewController.m8605150144#1723"    cd /Users/feder/test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-generated-files.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-own-target-headers.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-all-target-headers.hmap -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-project-headers.hmap -F/Users/feder/test/build/Debug-iphonesimulator -I/Users/feder/test/build/Debug-iphonesimulator/include -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources/i386 -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources -include /var/folders/h9/h9JqLP6AEn8TAWj2Hmg88++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FakeSMS_Prefix-djdncprzwldkisbzxnzuhrjsbmfo/FakeSMS_Prefix.pch -c /Users/feder/test/Classes/SMSSetViewController.m -o /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSSetViewController.o0#
+lSLF07#2@56"Compile /Users/feder/test/Classes/SMSSetViewController.m324988806#324988808#0(290"/Users/feder/test/Classes/SMSSetViewController.m: In function '-[SMSSetViewController tableView:cellForRowAtIndexPath:]':/Users/feder/test/Classes/SMSSetViewController.m:127: warning: incompatible Objective-C types initializing 'struct UITableViewCell *', expected 'struct EditableCell *'1(22@104"Incompatible Objective-C types initializing 'struct UITableViewCell *', expected 'struct EditableCell *'324988808#122#168#0(6@48"/Users/feder/test/Classes/SMSSetViewController.m324894581#127#0#127#0#61"incompatible Objective-C types initializing '*', expected '*'0(0#0#48"/Users/feder/test/Classes/SMSSetViewController.m8624151808#1723"    cd /Users/feder/test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-generated-files.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-own-target-headers.hmap -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-all-target-headers.hmap -iquote /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/FakeSMS-project-headers.hmap -F/Users/feder/test/build/Debug-iphonesimulator -I/Users/feder/test/build/Debug-iphonesimulator/include -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources/i386 -I/Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/DerivedSources -include /var/folders/h9/h9JqLP6AEn8TAWj2Hmg88++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FakeSMS_Prefix-djdncprzwldkisbzxnzuhrjsbmfo/FakeSMS_Prefix.pch -c /Users/feder/test/Classes/SMSSetViewController.m -o /Users/feder/test/build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSSetViewController.o0#
 
 CCompileC build/FakeSMS.build/Debug-iphonesimulator/FakeSMS.build/Objects-normal/i386/SMSTimingViewController.o /Users/feder/test/Classes/SMSTimingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s324826548.764882

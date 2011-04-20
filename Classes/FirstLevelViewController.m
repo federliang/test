@@ -9,7 +9,7 @@
 #import "FirstLevelViewController.h"
 #import "SecondLevelViewController.h"
 #import "SMSPreviewViewController.h"
-#import "SettingView.h"
+#import "SettingViewController.h"
 
 @implementation FirstLevelViewController
 @synthesize controllers;
