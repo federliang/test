@@ -8,7 +8,7 @@
 
 #import "FirstLevelViewController.h"
 #import "SecondLevelViewController.h"
-#import "SMSPreview.h"
+#import "SMSPreviewViewController.h"
 #import "SettingView.h"
 
 @implementation FirstLevelViewController
@@ -19,18 +19,17 @@
 	NSMutableArray *array = [[NSMutableArray alloc] init];
 	
 	//SMSPreviewController *smsPreviewController = [[SMSPreviewController alloc]initWithStyle:UITableViewStylePlain];
-	SMSPreviewController *smsPreviewController = [[SMSPreviewController alloc] init];
-	smsPreviewController.title = @"SMS Preview";
+	SMSPreviewViewController *smsPreviewViewController = [[SMSPreviewViewController alloc] init];
+	smsPreviewViewController.title = @"SMS Preview";
 	//	smsPreviewController.rowImage = [UIImage imageNamed:@"smsPreview.png"];
-	[array addObject:smsPreviewController];
-	[smsPreviewController release];
+	[array addObject:smsPreviewViewController];
+	[smsPreviewViewController release];
 
 	SettingViewController *settingViewController = [[SettingViewController alloc] init];
 	settingViewController.title = @"Settings";
 	//	smsPreviewController.rowImage = [UIImage imageNamed:@"smsPreview.png"];
 	[array addObject:settingViewController];
 	[settingViewController release];	
-	
 	
 	self.controllers = array;
 	[array release];

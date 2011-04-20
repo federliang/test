@@ -1,0 +1,164 @@
+TFakeSMS
+v7
+r1
+cCheck dependencies
+
+N/Users/feder/test/BackGround.jpg
+c000000004C9A1DE200000000000008C5
+t1285168610
+s2245
+
+N/Users/feder/test/MainWindow.xib
+c000000004C9A1DE20000000000005A6D
+t1285168610
+s23149
+
+N/Users/feder/test/bubble.png
+c000000004C9A1DE2000000000000056B
+t1285168610
+s1387
+
+N/Users/feder/test/bubbleSelf.png
+c000000004C9A1DE20000000000000631
+t1285168610
+s1585
+
+N/Users/feder/test/build/Debug/FakeSMS.app
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Info.plist
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/BackGround.jpg
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/bubble.png
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/bubbleSelf.png
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/button_down.png
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/button_up.png
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/datetime.plist
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/detailEditIcon.png
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/ismymessage.plist
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/message.plist
+t2
+s0
+
+N/Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/smsPreview.png
+t2
+s0
+
+N/Users/feder/test/button_down.png
+c000000004C9A1DE20000000000000C6D
+t1285168610
+s3181
+
+N/Users/feder/test/button_up.png
+c000000004C9A1DE20000000000000CDA
+t1285168610
+s3290
+
+N/Users/feder/test/datetime.plist
+c000000004CA95BCC00000000000001D3
+t1286167500
+s467
+
+N/Users/feder/test/detailEditIcon.png
+c000000004C9A1DE20000000000000CAD
+t1285168610
+s3245
+
+N/Users/feder/test/ismymessage.plist
+c000000004CA95BE000000000000001AA
+t1286167520
+s426
+
+N/Users/feder/test/message.plist
+c000000004CABD12100000000000002A8
+t1286328609
+s680
+
+N/Users/feder/test/smsPreview.png
+c000000004C9A1DE2000000000000138B
+t1285168610
+s5003
+
+NFakeSMS-Info.plist
+c000000004C9A1DE2000000000000038D
+t1285168610
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318091589#318091589#0(68"[BEROR]error: There is no SDK with the name or path 'iphoneos3.1.2'1(4@60"error: There is no SDK with the name or path 'iphoneos3.1.2'318091589#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileXIB /Users/feder/test/MainWindow.xib
+r0
+
+CCopyPlistFile /Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/datetime.plist datetime.plist
+r0
+
+CCopyPlistFile /Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/ismymessage.plist ismymessage.plist
+r0
+
+CCopyPlistFile /Users/feder/test/build/Debug/FakeSMS.app/Contents/Resources/message.plist message.plist
+r0
+
+CCpResource build/Debug/FakeSMS.app/Contents/Resources/BackGround.jpg BackGround.jpg
+r0
+
+CCpResource build/Debug/FakeSMS.app/Contents/Resources/bubble.png bubble.png
+r0
+
+CCpResource build/Debug/FakeSMS.app/Contents/Resources/bubbleSelf.png bubbleSelf.png
+r0
+
+CCpResource build/Debug/FakeSMS.app/Contents/Resources/button_down.png button_down.png
+r0
+
+CCpResource build/Debug/FakeSMS.app/Contents/Resources/button_up.png button_up.png
+r0
+
+CCpResource build/Debug/FakeSMS.app/Contents/Resources/detailEditIcon.png detailEditIcon.png
+r0
+
+CCpResource build/Debug/FakeSMS.app/Contents/Resources/smsPreview.png smsPreview.png
+r0
+
+CProcessInfoPlistFile /Users/feder/test/build/Debug/FakeSMS.app/Contents/Info.plist FakeSMS-Info.plist
+r0
+
+CTouch /Users/feder/test/build/Debug/FakeSMS.app
+r0
+

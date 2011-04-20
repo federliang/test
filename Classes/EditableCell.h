@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface EditableCell : UITableViewCell <UITextFieldDelegate>{
-	UITextField *numberField;
-	UITextField *smsField;
-	UITextField *timeField;
+	UITextField *numberField;	//input number text
+	UITextField *smsField;		//input content of SMS
+	UITextField *timeField;		//input when recieve this SMS
+	UILabel *numberLabel;		//
+	UILabel *timeLabel;			//
+	UILabel *smsLabel;			//
 	
-	UILabel *celllabel;
 	BOOL secure;
 	NSString *hint;
 	UIImageView *bgImage;
@@ -28,13 +29,17 @@
 @property (nonatomic, retain) UITextField *numberField;
 @property (nonatomic, retain) UITextField *smsField;
 @property (nonatomic, retain) UITextField *timeField;
-@property (nonatomic, retain) UILabel *celllabel;
+@property (nonatomic, retain) UILabel *numberLabel;
+@property (nonatomic, retain) UILabel *timeLabel;
+@property (nonatomic, retain) UILabel *smsLabel;
+
+
 @property (nonatomic, retain) NSString *key;
 @property (assign) BOOL secure;
 @property (assign) NSInteger section;
 @property (assign) NSInteger row;
 @property (nonatomic, retain)NSString *hint;
-@property(nonatomic, retain) UIImageView *bgImage;
+@property (nonatomic, retain) UIImageView *bgImage;
 - (UITextField *)newTextFieldWithPrimaryColor:(UIColor *)primaryColor selectedColor:(UIColor *)selectedColor fontSize:(CGFloat)fontSize bold:(BOOL)bold;
 //-(void)setRowStyle:(int)rowStyle; 
 - (UILabel *)newLabelWithPrimaryColor:(UIColor *)primaryColor selectedColor:(UIColor *)selectedColor fontSize:(CGFloat)fontSize bold:(BOOL)bold;

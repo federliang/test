@@ -13,6 +13,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		9A433E6F135C5B2B003E84DB /* ThirdLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A433E6E135C5B2B003E84DB /* ThirdLevelViewController.m */; };
+		9A433EA1135C67C8003E84DB /* add_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A433EA0135C67C8003E84DB /* add_image.jpg */; };
+		9A433EA3135C67DC003E84DB /* addperson_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A433EA2135C67DC003E84DB /* addperson_image.jpg */; };
+		9A433EA5135C6A9D003E84DB /* clear_log.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A433EA4135C6A9D003E84DB /* clear_log.jpg */; };
+		9A433EAF135C6F47003E84DB /* save.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A433EAE135C6F47003E84DB /* save.jpg */; };
 		9A5C4774125788AF00F55BCD /* ismymessage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5C4773125788AF00F55BCD /* ismymessage.plist */; };
 		9A5C47BA1257978A00F55BCD /* datetime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5C47B91257978A00F55BCD /* datetime.plist */; };
 		9A5C47C712579A0E00F55BCD /* message.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5C47C612579A0E00F55BCD /* message.plist */; };
@@ -22,15 +27,16 @@
 		9A62D2E5118C171D0093B8BF /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A62D2DD118C171D0093B8BF /* button_up.png */; };
 		9A62D2E8118C171D0093B8BF /* detailEditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A62D2E0118C171D0093B8BF /* detailEditIcon.png */; };
 		9A62D2E9118C171D0093B8BF /* smsPreview.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A62D2E1118C171D0093B8BF /* smsPreview.png */; };
-		9A62D2F0118C214C0093B8BF /* SMSPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62D2EF118C214C0093B8BF /* SMSPreview.m */; };
+		9A62D2F0118C214C0093B8BF /* SMSPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62D2EF118C214C0093B8BF /* SMSPreviewViewController.m */; };
 		9A62D3601190415F0020B492 /* BackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A62D35F1190415F0020B492 /* BackGround.jpg */; };
+		9A656550135AE3B10013E069 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A65654F135AE3B10013E069 /* MySingleton.m */; };
 		9A90870F12EDB88700185F47 /* EditableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90870D12EDB88700185F47 /* EditableCell.m */; };
-		9A920EB612CB844200813B6A /* SMSTimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A920EB512CB844200813B6A /* SMSTimingViewController.m */; };
+		9A920EB612CB844200813B6A /* SMSSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A920EB512CB844200813B6A /* SMSSetViewController.m */; };
 		9A920F5512D0202C00813B6A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A920F5412D0202B00813B6A /* AddressBook.framework */; };
 		9A920F5912D0203600813B6A /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A920F5812D0203600813B6A /* AddressBookUI.framework */; };
 		9AB9524E1249DEB80066897F /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB9524C1249DEB80066897F /* bubble.png */; };
 		9AB9524F1249DEB80066897F /* bubbleSelf.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB9524D1249DEB80066897F /* bubbleSelf.png */; };
-		9AD1D50112BCB166004F4085 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1D50012BCB166004F4085 /* SettingView.m */; };
+		9AD1D50112BCB166004F4085 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1D50012BCB166004F4085 /* SettingViewController.m */; };
 		9AD1D53B12BCE93B004F4085 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1D53A12BCE93B004F4085 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +51,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FakeSMS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeSMS_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FakeSMS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FakeSMS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9A433E6D135C5B2B003E84DB /* ThirdLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdLevelViewController.h; sourceTree = "<group>"; };
+		9A433E6E135C5B2B003E84DB /* ThirdLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdLevelViewController.m; sourceTree = "<group>"; };
+		9A433EA0135C67C8003E84DB /* add_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = add_image.jpg; path = Images/add_image.jpg; sourceTree = "<group>"; };
+		9A433EA2135C67DC003E84DB /* addperson_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = addperson_image.jpg; path = Images/addperson_image.jpg; sourceTree = "<group>"; };
+		9A433EA4135C6A9D003E84DB /* clear_log.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clear_log.jpg; path = Images/clear_log.jpg; sourceTree = "<group>"; };
+		9A433EAE135C6F47003E84DB /* save.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = save.jpg; path = Images/save.jpg; sourceTree = "<group>"; };
 		9A5C4773125788AF00F55BCD /* ismymessage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ismymessage.plist; sourceTree = "<group>"; };
 		9A5C47B91257978A00F55BCD /* datetime.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = datetime.plist; sourceTree = "<group>"; };
 		9A5C47C612579A0E00F55BCD /* message.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = message.plist; sourceTree = "<group>"; };
@@ -56,19 +68,21 @@
 		9A62D2DD118C171D0093B8BF /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
 		9A62D2E0118C171D0093B8BF /* detailEditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailEditIcon.png; sourceTree = "<group>"; };
 		9A62D2E1118C171D0093B8BF /* smsPreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smsPreview.png; sourceTree = "<group>"; };
-		9A62D2EE118C214C0093B8BF /* SMSPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMSPreview.h; path = ../SMSPreview.h; sourceTree = "<group>"; };
-		9A62D2EF118C214C0093B8BF /* SMSPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMSPreview.m; path = ../SMSPreview.m; sourceTree = "<group>"; };
+		9A62D2EE118C214C0093B8BF /* SMSPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMSPreviewViewController.h; path = ../SMSPreviewViewController.h; sourceTree = "<group>"; };
+		9A62D2EF118C214C0093B8BF /* SMSPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMSPreviewViewController.m; path = ../SMSPreviewViewController.m; sourceTree = "<group>"; };
 		9A62D35F1190415F0020B492 /* BackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackGround.jpg; sourceTree = "<group>"; };
+		9A65654E135AE3B10013E069 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		9A65654F135AE3B10013E069 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
 		9A90870D12EDB88700185F47 /* EditableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableCell.m; sourceTree = "<group>"; };
 		9A90870E12EDB88700185F47 /* EditableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableCell.h; sourceTree = "<group>"; };
-		9A920EB412CB844200813B6A /* SMSTimingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSTimingViewController.h; sourceTree = "<group>"; };
-		9A920EB512CB844200813B6A /* SMSTimingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSTimingViewController.m; sourceTree = "<group>"; };
+		9A920EB412CB844200813B6A /* SMSSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSetViewController.h; sourceTree = "<group>"; };
+		9A920EB512CB844200813B6A /* SMSSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSSetViewController.m; sourceTree = "<group>"; };
 		9A920F5412D0202B00813B6A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		9A920F5812D0203600813B6A /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		9AB9524C1249DEB80066897F /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
 		9AB9524D1249DEB80066897F /* bubbleSelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSelf.png; sourceTree = "<group>"; };
-		9AD1D4FF12BCB166004F4085 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
-		9AD1D50012BCB166004F4085 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		9AD1D4FF12BCB166004F4085 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		9AD1D50012BCB166004F4085 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		9AD1D53912BCE93B004F4085 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		9AD1D53A12BCE93B004F4085 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,23 +106,27 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9A90870D12EDB88700185F47 /* EditableCell.m */,
 				9A90870E12EDB88700185F47 /* EditableCell.h */,
+				9A90870D12EDB88700185F47 /* EditableCell.m */,
+				9A920EB412CB844200813B6A /* SMSSetViewController.h */,
+				9A920EB512CB844200813B6A /* SMSSetViewController.m */,
 				9A62D298118BFCFF0093B8BF /* FirstLevelViewController.h */,
-				9A920EB412CB844200813B6A /* SMSTimingViewController.h */,
-				9A920EB512CB844200813B6A /* SMSTimingViewController.m */,
 				9A62D299118BFCFF0093B8BF /* FirstLevelViewController.m */,
 				1D3623240D0F684500981E51 /* FakeSMSAppDelegate.h */,
 				1D3623250D0F684500981E51 /* FakeSMSAppDelegate.m */,
 				9A62D2C8118C0A630093B8BF /* SecondLevelViewController.h */,
 				9A62D2C9118C0A630093B8BF /* SecondLevelViewController.m */,
-				9A62D2EE118C214C0093B8BF /* SMSPreview.h */,
-				9A62D2EF118C214C0093B8BF /* SMSPreview.m */,
+				9A433E6D135C5B2B003E84DB /* ThirdLevelViewController.h */,
+				9A433E6E135C5B2B003E84DB /* ThirdLevelViewController.m */,
+				9A62D2EE118C214C0093B8BF /* SMSPreviewViewController.h */,
+				9A62D2EF118C214C0093B8BF /* SMSPreviewViewController.m */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				9AD1D4FF12BCB166004F4085 /* SettingView.h */,
-				9AD1D50012BCB166004F4085 /* SettingView.m */,
+				9AD1D4FF12BCB166004F4085 /* SettingViewController.h */,
+				9AD1D50012BCB166004F4085 /* SettingViewController.m */,
 				9AD1D53912BCE93B004F4085 /* AboutViewController.h */,
 				9AD1D53A12BCE93B004F4085 /* AboutViewController.m */,
+				9A65654E135AE3B10013E069 /* MySingleton.h */,
+				9A65654F135AE3B10013E069 /* MySingleton.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -146,7 +164,11 @@
 			isa = PBXGroup;
 			children = (
 				9A5C4773125788AF00F55BCD /* ismymessage.plist */,
+				9A433EA4135C6A9D003E84DB /* clear_log.jpg */,
+				9A433EAE135C6F47003E84DB /* save.jpg */,
 				9A5C47C612579A0E00F55BCD /* message.plist */,
+				9A433EA0135C67C8003E84DB /* add_image.jpg */,
+				9A433EA2135C67DC003E84DB /* addperson_image.jpg */,
 				9A5C47B91257978A00F55BCD /* datetime.plist */,
 				9A62D35F1190415F0020B492 /* BackGround.jpg */,
 				9AB9524C1249DEB80066897F /* bubble.png */,
@@ -155,8 +177,8 @@
 				9A62D2DD118C171D0093B8BF /* button_up.png */,
 				9A62D2E0118C171D0093B8BF /* detailEditIcon.png */,
 				9A62D2E1118C171D0093B8BF /* smsPreview.png */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* FakeSMS-Info.plist */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -233,6 +255,10 @@
 				9A5C4774125788AF00F55BCD /* ismymessage.plist in Resources */,
 				9A5C47BA1257978A00F55BCD /* datetime.plist in Resources */,
 				9A5C47C712579A0E00F55BCD /* message.plist in Resources */,
+				9A433EA1135C67C8003E84DB /* add_image.jpg in Resources */,
+				9A433EA3135C67DC003E84DB /* addperson_image.jpg in Resources */,
+				9A433EA5135C6A9D003E84DB /* clear_log.jpg in Resources */,
+				9A433EAF135C6F47003E84DB /* save.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,11 +273,13 @@
 				1D3623260D0F684500981E51 /* FakeSMSAppDelegate.m in Sources */,
 				9A62D29A118BFCFF0093B8BF /* FirstLevelViewController.m in Sources */,
 				9A62D2CA118C0A630093B8BF /* SecondLevelViewController.m in Sources */,
-				9A62D2F0118C214C0093B8BF /* SMSPreview.m in Sources */,
-				9AD1D50112BCB166004F4085 /* SettingView.m in Sources */,
+				9A62D2F0118C214C0093B8BF /* SMSPreviewViewController.m in Sources */,
+				9AD1D50112BCB166004F4085 /* SettingViewController.m in Sources */,
 				9AD1D53B12BCE93B004F4085 /* AboutViewController.m in Sources */,
-				9A920EB612CB844200813B6A /* SMSTimingViewController.m in Sources */,
+				9A920EB612CB844200813B6A /* SMSSetViewController.m in Sources */,
 				9A90870F12EDB88700185F47 /* EditableCell.m in Sources */,
+				9A656550135AE3B10013E069 /* MySingleton.m in Sources */,
+				9A433E6F135C5B2B003E84DB /* ThirdLevelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
